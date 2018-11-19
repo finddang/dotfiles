@@ -11,7 +11,9 @@ endif
 
 inoremap jj <ESC>
 map ss :w<CR>
-setlocal spell spelllang=en_us
+map <C-o> :NERDTreeToggle<CR>
+# setlocal spell spelllang=en_us
+setlocal spell spelllang=de_de
 set statusline=2
 set laststatus=2
 set noshowmode
